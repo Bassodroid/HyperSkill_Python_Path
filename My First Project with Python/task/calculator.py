@@ -23,7 +23,8 @@ Pancake_Earned = 80
 Income = "Income"
 Income_Generated = Bubblegum_Earned + Toffee_Earned + Ice_cream_Earned + Milk_chocolate_Earned + Doughnut_Earned + Pancake_Earned
 
-
+print("Prices: ")
+print(f"{Bubblegum}: ${Bubblegum_Price} \n{Toffee}: ${Toffee_Price}\n{Ice_cream}: ${Ice_cream_Price}\n{Milk_chocolate}: ${Milk_chocolate_Price}\n{Doughnut}: ${Doughnut_Price}\n{Pancake}: ${Pancake_Price}")
 print("\nEarned amount: ")
 print(f"{Bubblegum}: ${Bubblegum_Earned} \n{Toffee}: ${Toffee_Earned}\n{Ice_cream}: ${Ice_cream_Earned}\n{Milk_chocolate}: ${Milk_chocolate_Earned}\n{Doughnut}: ${Doughnut_Earned}\n{Pancake}: ${Pancake_Earned}")
 print(f"\n{Income}: ${Income_Generated}")
